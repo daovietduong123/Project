@@ -1,0 +1,532 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+#header {
+    background: url(/images/backgr-header.jpg) no-repeat;
+    width: 100%;
+    height: 620px;
+    text-align: center;
+}
+
+#logo-ladi {
+    margin-top: 32px;
+    width: 145px;
+    height: 30px;
+}
+
+#first-title {
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+    margin-top: 38px;
+}
+
+#div-two-title {
+    margin-top: 10px;
+}
+
+#two-title {
+    color: rgb(55 71 79);
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+#first-btn {
+    margin-top: 34px;
+    color: white;
+    background-color: #3D9BE9;
+    border: unset;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#div-table {
+    margin-top: 14px;
+    margin-left: -145px;
+}
+
+#table {
+    width: 455px;
+    height: 245px;
+}
+
+#div-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.icon-border {
+    color: white;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.d-icon {
+    line-height: 45px !important;
+}
+
+.infor {
+    font-size: 13px;
+    color: white;
+    width: 150px;
+    text-align: left;
+    margin-left: 16px;
+    text-decoration: underline
+}
+
+#introduce-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+#introduce {
+    width: 450px;
+}
+
+#first-introduce-content {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#two-introduce-content {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+#first-line {
+    border: 1px solid grey;
+    width: 90px;
+}
+
+#three-introduce-content {
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgba(97, 97, 97, 1);
+}
+
+#introduce-content-pic {
+    width: 485px;
+    height: 205px;
+    margin-top: 55px;
+}
+
+#reason-content {
+    background-color: rgb(245 245 245);
+    padding-bottom: 100px;
+}
+
+#first-reason {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-reason-content {
+    font-weight: lighter;
+    font-size: 25px;
+    margin: 55px auto 0;
+    color: #424242;
+}
+
+#two-reason-content {
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+#two-line {
+    border: 1px solid grey;
+    width: 205px;
+    margin: 0 auto;
+}
+
+#two-reason {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.strengths {
+    width: 200px;
+    margin: 10px;
+}
+
+.icon-strengths {
+    color: #546e7a;
+    font-size: 35px;
+    margin-bottom: 13px;
+}
+
+.number-strengths {
+    color: black;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.detailed-strengths {
+    color: #616161;
+    font-size: 16px;
+}
+
+#content-product {
+    text-align: center;
+    margin-top: 55px;
+}
+
+#first-content-product {
+    color: #424242;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+#second-content-product {
+    width: 50%;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+#product {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+
+.detailed-product {
+    width: 290px;
+    margin: 40px;
+    text-align: center;
+}
+
+.product-img-chair {
+    height: 200px;
+}
+
+.product-img {
+    height: 171px;
+    margin-bottom: 29px;
+}
+
+#product-img-table {
+    height: 182px;
+    margin-bottom: 18px;
+}
+
+.name-product {
+    color: #546e7a;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.infor-product {
+    color: #616161;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.second-btn {
+    border-radius: 18px;
+    height: 31px;
+    width: 157px;
+    background-color: white;
+    border: 1px solid #546e7a;
+    color: #546e7a;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#room-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.room {
+    width: 499.5px;
+    height: 300px;
+}
+
+#register {
+    background-color: #263238d9;
+}
+
+#content-register {
+    text-align: center;
+}
+
+#first-content-register {
+    font-weight: lighter;
+    font-size: 23px;
+    color: white;
+    padding-top: 55px;
+}
+
+#second-content-register {
+    color: #b0bec5;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+#third-btn {
+    background-color: #607d8b;
+    width: 235px;
+    height: 48px;
+    color: white;
+    border: 0;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+#third-content-register {
+    color: #b0bec5;
+    font-size: 13px;
+    margin-top: 20px;
+    padding-bottom: 55px;
+}
+
+#infor-ceo {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.div-ceo {
+    border-radius: 110px;
+    width: 140px;
+    margin: 0 auto 16px;
+    overflow: hidden;
+}
+
+#img-ceo {
+    height: 140px;
+    margin-left: -75px;
+}
+
+#content-ceo {
+    color: #424242;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+#name-ceo {
+    color: #424242;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 28px;
+}
+
+#ceo-ldp {
+    color: #424242;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+#footer {
+    background-color: #263238;
+}
+
+#first-footer {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+#address-first-footer {
+    margin-right: 10%;
+    margin-bottom: 43px;
+}
+
+.address-footer {
+    color: #bdbdbd;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.second-address {
+    color: #757575;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.login-footer {
+    color: #9e9e9e;
+    font-size: 16px;
+}
+
+.icon-first-footer {
+    margin-top: 70px;
+}
+
+.footer-icon {
+    color: #607d8b;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.third-line {
+    border: 1px solid #455a64;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#second-footer {
+    margin-top: 18px;
+    color: #9e9e9e;
+    font-size: 14px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.second-logo-ladi {
+    width: 152px;
+    height: 40px;
+}
+
+@media (min-width: 1024px) {
+    /* CSS Computer */
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    /* CSS shared tablet and mobile */
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    /* CSS Tablet */
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+    /* CSS mobile */
+    #header {
+        height: 838px;
+    }
+
+    #div-area {
+        margin-top: -55px;
+        flex-direction: column;
+    }
+
+    #div-table {
+        height: 240px;
+        margin-top: 30px;
+        margin-left: -115px;
+    }
+
+    #table {
+        width: 350px;
+        height: 185px;
+    }
+
+    #introduce-content-pic {
+        width: 300px;
+        height: 135px;
+    }
+
+    #introduce-content {
+        flex-direction: column;
+    }
+
+    #introduce {
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+
+    #introduce-content-pic {
+        margin: 15px auto;
+    }
+
+    #first-line {
+        margin: 0 auto;
+    }
+
+    #two-reason {
+        flex-direction: column;
+    }
+
+    .strengths {
+        margin: 8px auto;
+    }
+
+    #two-reason-content {
+        text-align: center;
+    }
+
+    #product {
+        flex-direction: column;
+    }
+
+    .detailed-product {
+        margin: 0 auto;
+    }
+
+    #product-img-table {
+        margin-top: 16px;
+    }
+
+    #room-image {
+        flex-direction: column;
+    }
+
+    .room {
+        width: 300px;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    #second-content-product {
+        width: 90%;
+    }
+
+    #first-footer {
+        flex-direction: column;
+    }
+
+    #address-first-footer {
+        text-align: center;
+        margin: 0 auto 30px;
+        width: 65%;
+    }
+
+    #login-icon-footer {
+        text-align: center;
+    }
+
+    .icon-first-footer {
+        margin-bottom: 35px;
+    }
+
+    .footer-icon {
+        font-size: 18px;
+    }
+
+    .second-logo-ladi {
+        width: 115px;
+        height: 35px;
+    }
+}
