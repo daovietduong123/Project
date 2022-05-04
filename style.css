@@ -142,6 +142,7 @@ body{
 }
 
 #first-reason-content {
+    text-align: center;
     font-weight: lighter;
     font-size: 25px;
     margin: 55px auto 0;
@@ -512,6 +513,7 @@ body{
     }
 
     #two-reason-content {
+        width: 98%;
         text-align: center;
     }
 
@@ -535,6 +537,11 @@ body{
         width: 90%;
         margin: 0 auto;
         height: unset;
+    }
+
+    #content-ceo{
+        width: 94%;
+        margin: 0 auto;
     }
 
     #second-content-product {
